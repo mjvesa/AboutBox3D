@@ -1,0 +1,62 @@
+@import url(../reindeer/styles.css);
+
+
+
+
+.aboutbox .v-rendercanvas {
+
+	float:left;
+	clear:left;	
+	border: medium;
+	border-color: black;
+	background-color: black;	
+	width: 400px;
+	height: 400px;
+	/* for IE */
+	filter:alpha(opacity=80);
+  	/* CSS3 standard */
+  	opacity:0.8;
+	
+}
+
+.aboutbox .v-window-outerheader {
+    display: none;
+}
+
+.aboutbox .v-window-footer {
+    display: none;
+}
+
+.aboutbox .v-window-contents {
+	background-color: black;	
+}
+
+.aboutbox .creditslabel {
+	vertical-align: center;
+	text-align: center;
+	color: white;	
+	/* background-color: black;*/
+	/* for IE */
+	/*filter:alpha(opacity=90);*/
+  	/* CSS3 standard */
+  	/*opacity:0.9;*/
+}
+	
+.aboutbox .footerlabel {
+	height: 2em;
+	color: black;
+	text-align: center;	
+	 background-color: #00b4f0;
+}
+
+.v-embedded-image {
+	
+	z-index: 100000;
+}
+.v-moviescroller {
+	overflow: hidden;
+	height: 300px;
+	/* background: url("img/backfade.png"); */
+}
+	
+
