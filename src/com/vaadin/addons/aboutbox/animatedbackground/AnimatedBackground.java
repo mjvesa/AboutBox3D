@@ -7,15 +7,16 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 
 import com.example.aboutbox.widgetset.client.ui.VAnimatedBackground;
-import com.vaadin.terminal.PaintException;
-import com.vaadin.terminal.PaintTarget;
+import com.vaadin.server.PaintException;
+import com.vaadin.server.PaintTarget;
+import com.vaadin.shared.ui.Connect;
 import com.vaadin.ui.AbstractComponent;
+import com.vaadin.ui.LegacyComponent;
 
 /**
  * Server side component for the VPolygonRenderer widget.
  */
-@com.vaadin.ui.ClientWidget(VAnimatedBackground.class)
-public class AnimatedBackground extends AbstractComponent {
+public class AnimatedBackground extends AbstractComponent implements LegacyComponent {
 
 	/**
 	 * 
@@ -374,7 +375,7 @@ public class AnimatedBackground extends AbstractComponent {
 	
 	@Override
 	public void paintContent(PaintTarget target) throws PaintException {
-		super.paintContent(target);
+		//super.paintContent(target);
 		
 		target.addAttribute("effect", effect.ordinal());
 		target.addAttribute("horizontalSensitivity", horizontalSensitivity);
@@ -422,7 +423,7 @@ public class AnimatedBackground extends AbstractComponent {
      */
     @Override
     public void changeVariables(Object source, Map<String, Object> variables) {
-        super.changeVariables(source, variables);
+        //super.changeVariables(source, variables);
 
         if (variables.containsKey("stopped") &&
         		Boolean.TRUE.equals(variables.get("stopped"))) {
@@ -432,5 +433,6 @@ public class AnimatedBackground extends AbstractComponent {
         	
         }
     }
+
 	
 }

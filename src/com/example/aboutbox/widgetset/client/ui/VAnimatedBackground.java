@@ -11,10 +11,10 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.Widget;
-import com.vaadin.terminal.gwt.client.ApplicationConnection;
-import com.vaadin.terminal.gwt.client.BrowserInfo;
-import com.vaadin.terminal.gwt.client.Paintable;
-import com.vaadin.terminal.gwt.client.UIDL;
+import com.vaadin.client.ApplicationConnection;
+import com.vaadin.client.BrowserInfo;
+import com.vaadin.client.Paintable;
+import com.vaadin.client.UIDL;
 
 /**
  * Draws a real-time rendered 3d object consisting of a tringular

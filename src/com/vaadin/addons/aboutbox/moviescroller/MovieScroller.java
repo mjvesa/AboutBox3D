@@ -2,15 +2,17 @@ package com.vaadin.addons.aboutbox.moviescroller;
 
 import java.util.Map;
 
-import com.vaadin.terminal.PaintException;
-import com.vaadin.terminal.PaintTarget;
+import com.example.aboutbox.widgetset.client.ui.MovieScrollerConnector;
+import com.vaadin.server.PaintException;
+import com.vaadin.server.PaintTarget;
+import com.vaadin.shared.ui.Connect;
 import com.vaadin.ui.AbstractComponent;
+import com.vaadin.ui.LegacyComponent;
 
 /**
  * Server side component for the VMovieScoller widget.
  */
-@com.vaadin.ui.ClientWidget(com.example.aboutbox.widgetset.client.ui.VMovieScroller.class)
-public class MovieScroller extends AbstractComponent {
+public class MovieScroller extends AbstractComponent implements LegacyComponent {
 
 	/**
 	 * 
@@ -57,9 +59,8 @@ public class MovieScroller extends AbstractComponent {
 		requestRepaint();
 	}
 
-	@Override
 	public void paintContent(PaintTarget target) throws PaintException {
-		super.paintContent(target);
+//		super.paintContent(target);
 
 		target.addAttribute("scrollMessage", scrollMessage);
 		target.addAttribute("fps", fps);
@@ -73,9 +74,9 @@ public class MovieScroller extends AbstractComponent {
 	 * 
 	 * {@inheritDoc}
 	 */
-	@Override
+	//@Override
 	public void changeVariables(Object source, Map<String, Object> variables) {
-		super.changeVariables(source, variables);
+		//super.changeVariables(source, variables);
 	}
 
 }

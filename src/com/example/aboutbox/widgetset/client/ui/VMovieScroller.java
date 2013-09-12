@@ -6,9 +6,9 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.ui.Widget;
-import com.vaadin.terminal.gwt.client.ApplicationConnection;
-import com.vaadin.terminal.gwt.client.Paintable;
-import com.vaadin.terminal.gwt.client.UIDL;
+import com.vaadin.client.ApplicationConnection;
+import com.vaadin.client.Paintable;
+import com.vaadin.client.UIDL;
 
 /**
  * A scroller that scrolls vertically at a defined speed.

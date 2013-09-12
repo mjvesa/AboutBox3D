@@ -5,9 +5,8 @@ import com.vaadin.addons.aboutbox.animatedbackground.AnimatedBackground.Effect;
 import com.vaadin.addons.aboutbox.moviescroller.MovieScroller;
 import com.vaadin.event.MouseEvents.ClickEvent;
 import com.vaadin.event.MouseEvents.ClickListener;
-import com.vaadin.terminal.Resource;
-import com.vaadin.terminal.gwt.server.WebApplicationContext;
-import com.vaadin.terminal.gwt.server.WebBrowser;
+import com.vaadin.server.Resource;
+import com.vaadin.server.WebBrowser;
 import com.vaadin.ui.AbsoluteLayout;
 import com.vaadin.ui.Embedded;
 import com.vaadin.ui.Label;
@@ -134,10 +133,7 @@ public class AboutBox
 	 */
 	private void setTessellationAccuracy() {
 		
-			
-		WebApplicationContext context = ((WebApplicationContext)
-				getApplication().getContext());
-		WebBrowser wb = context.getBrowser();
+		WebBrowser wb = getUI().getPage().getWebBrowser();
 		
 		if (wb.isIE()) {
 			animatedBackground.setColumns(slowMeshColumns);
@@ -244,7 +240,7 @@ public class AboutBox
 	 */
 	public void setFooterHTML(String footerHTML) {
 		Label newLabel = new Label(footerHTML,Label.CONTENT_XHTML);
-		replaceComponent(footerLabel, newLabel);
+		layout.replaceComponent(footerLabel, newLabel);
 		footerLabel = newLabel;
 		footerLabel.addStyleName("footerlabel");
 		this.footerHTML = footerHTML;
@@ -306,7 +302,7 @@ public class AboutBox
 	 * window from the UI. 
 	 */
 	public void animatedBackgroundClosed() {
-		getApplication().getMainWindow().removeWindow(this);
+		getUI().removeWindow(this);
 	}
 	
 	
