@@ -1,8 +1,8 @@
 package com.github.mjvesa.aboutbox;
 
-import com.github.mjvesa.aboutbox.animatedbackground.AnimatedBackground;
-import com.github.mjvesa.aboutbox.animatedbackground.AnimatedBackground.Effect;
-import com.github.mjvesa.aboutbox.moviescroller.MovieScroller;
+import com.github.mjvesa.aboutbox.widgetset.AnimatedBackground;
+import com.github.mjvesa.aboutbox.widgetset.AnimatedBackground.Effect;
+import com.github.mjvesa.aboutbox.widgetset.MovieScroller;
 import com.vaadin.event.MouseEvents.ClickEvent;
 import com.vaadin.event.MouseEvents.ClickListener;
 import com.vaadin.server.Resource;
@@ -10,7 +10,6 @@ import com.vaadin.server.WebBrowser;
 import com.vaadin.ui.AbsoluteLayout;
 import com.vaadin.ui.Embedded;
 import com.vaadin.ui.Label;
-import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
 
 public class AboutBox 

@@ -1,11 +1,9 @@
-package com.github.mjvesa.aboutbox.moviescroller;
+package com.github.mjvesa.aboutbox.widgetset;
 
 import java.util.Map;
 
-import com.github.mjvesa.aboutbox.widgetset.client.ui.MovieScrollerConnector;
 import com.vaadin.server.PaintException;
 import com.vaadin.server.PaintTarget;
-import com.vaadin.shared.ui.Connect;
 import com.vaadin.ui.AbstractComponent;
 import com.vaadin.ui.LegacyComponent;
 

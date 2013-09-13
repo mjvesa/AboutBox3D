@@ -1,4 +1,4 @@
-package com.github.mjvesa.aboutbox.animatedbackground;
+package com.github.mjvesa.aboutbox.widgetset;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -6,10 +6,8 @@ import java.util.Map;
 
 import javax.imageio.ImageIO;
 
-import com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground;
 import com.vaadin.server.PaintException;
 import com.vaadin.server.PaintTarget;
-import com.vaadin.shared.ui.Connect;
 import com.vaadin.ui.AbstractComponent;
 import com.vaadin.ui.LegacyComponent;
 

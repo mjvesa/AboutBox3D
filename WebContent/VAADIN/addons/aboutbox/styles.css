@@ -27,11 +27,11 @@
     display: none;
 }
 
-.aboutbox .v-window-contents {
+.aboutbox > div > div > .v-window-contents {
 	background-color: black;	
 }
 
-.aboutbox .creditslabel {
+.aboutbox .v-widget.creditslabel {
 	vertical-align: center;
 	text-align: center;
 	color: white;	
@@ -46,7 +46,7 @@
 	width: 100%;
 }	
 
-.aboutbox .footerlabel {
+.aboutbox .v-widget.footerlabel {
 	height: 2em;
 	color: black;
 	text-align: center;	
@@ -57,11 +57,11 @@
 	margin: 0.25em;
 }
 
-.v-embedded-image {
+.aboutbox .v-embedded-image {
 	
 	z-index: 100000;
 }
-.v-moviescroller {
+.aboutbox .v-moviescroller {
 	overflow: hidden;
 	height: 300px;
 	/* background: url("img/backfade.png"); */

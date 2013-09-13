@@ -1,4 +1,4 @@
-package com.github.mjvesa.aboutbox.animatedbackground;
+package com.github.mjvesa.aboutbox.widgetset;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

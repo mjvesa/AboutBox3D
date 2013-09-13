@@ -1,4 +1,4 @@
-package com.github.mjvesa.aboutbox.animatedbackground;
+package com.github.mjvesa.aboutbox.widgetset;
 /**
  *
  * Represents one point in a mesh including vertex normals. A vertex can be

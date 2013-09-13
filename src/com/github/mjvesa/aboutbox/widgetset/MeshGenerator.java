@@ -1,4 +1,4 @@
-package com.github.mjvesa.aboutbox.animatedbackground;
+package com.github.mjvesa.aboutbox.widgetset;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;

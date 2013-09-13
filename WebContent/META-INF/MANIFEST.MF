@@ -1,7 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: AboutBox
-Implementation-Version: 1.0.0
+Implementation-Version: 0.1.0
 Vaadin-Package-Version: 1
-Vaadin-Widgetsets: com.example.aboutbox.widgetset.AboutboxWidgetset
+Vaadin-Widgetsets: com.github.mjvesa.aboutbox.widgetset.AboutboxWidget
+ set
 Class-Path: 
+Vaadin-Stylesheets: VAADIN/addons/aboutbox/styles.css
 
