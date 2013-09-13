@@ -1,7 +1,7 @@
-package com.vaadin.addons.aboutbox;
+package com.github.mjvesa.aboutbox;
 
 import com.gargoylesoftware.htmlunit.Page;
-import com.vaadin.addons.aboutbox.animatedbackground.AnimatedBackground.Effect;
+import com.github.mjvesa.aboutbox.animatedbackground.AnimatedBackground.Effect;
 import com.vaadin.annotations.Theme;
 import com.vaadin.server.ThemeResource;
 import com.vaadin.server.VaadinRequest;

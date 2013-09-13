@@ -1,8 +1,8 @@
-package com.vaadin.addons.aboutbox;
+package com.github.mjvesa.aboutbox;
 
-import com.vaadin.addons.aboutbox.animatedbackground.AnimatedBackground;
-import com.vaadin.addons.aboutbox.animatedbackground.AnimatedBackground.Effect;
-import com.vaadin.addons.aboutbox.moviescroller.MovieScroller;
+import com.github.mjvesa.aboutbox.animatedbackground.AnimatedBackground;
+import com.github.mjvesa.aboutbox.animatedbackground.AnimatedBackground.Effect;
+import com.github.mjvesa.aboutbox.moviescroller.MovieScroller;
 import com.vaadin.event.MouseEvents.ClickEvent;
 import com.vaadin.event.MouseEvents.ClickListener;
 import com.vaadin.server.Resource;

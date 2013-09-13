@@ -1,7 +1,7 @@
-package com.example.aboutbox.widgetset.client.ui;
+package com.github.mjvesa.aboutbox.widgetset.client.ui;
 
+import com.github.mjvesa.aboutbox.moviescroller.MovieScroller;
 import com.google.gwt.user.client.ui.Widget;
-import com.vaadin.addons.aboutbox.moviescroller.MovieScroller;
 import com.vaadin.client.ui.LegacyConnector;
 import com.vaadin.shared.ui.Connect;
 

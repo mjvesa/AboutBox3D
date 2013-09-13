@@ -1,4 +1,4 @@
-package com.vaadin.addons.aboutbox.animatedbackground;
+package com.github.mjvesa.aboutbox.animatedbackground;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

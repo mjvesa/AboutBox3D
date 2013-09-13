@@ -1,4 +1,4 @@
-package com.example.aboutbox.widgetset.client.ui;
+package com.github.mjvesa.aboutbox.widgetset.client.ui;
 
 import com.google.gwt.dom.client.Document;
 import com.google.gwt.event.dom.client.ClickEvent;

@@ -1,4 +1,4 @@
-package com.vaadin.addons.aboutbox.animatedbackground;
+package com.github.mjvesa.aboutbox.animatedbackground;
 /**
  *
  * Represents one point in a mesh including vertex normals. A vertex can be
