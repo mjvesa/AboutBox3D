@@ -10,18 +10,14 @@ import com.vaadin.server.WebBrowser;
 import com.vaadin.ui.AbsoluteLayout;
 import com.vaadin.ui.Embedded;
 import com.vaadin.ui.Label;
+import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
 
 public class AboutBox 
-	extends Window 
+	extends Window
 	implements ClickListener, AnimatedBackground.CloseListener {
-
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -7822829984485730681L;
-
 
 	private String footerHTML;
 	
@@ -49,7 +45,7 @@ public class AboutBox
 	 */
 	public AboutBox() {
 		
-		setStyleName("aboutbox");
+		addStyleName("aboutbox");
 		
 		layout = new AbsoluteLayout();
 
@@ -61,7 +57,6 @@ public class AboutBox
 		animatedBackground.setCloseListener(this);
 		layout.addComponent(animatedBackground, "top: 0px; left:0px;");
 		
-
 		creditsScroller = new MovieScroller();
 		creditsScroller.setFps(20);
 		creditsScroller.setScrollSpeed(0.5);
@@ -73,10 +68,8 @@ public class AboutBox
 		footerLabel.addStyleName("footerlabel");
 		layout.addComponent(footerLabel,"bottom: 0px; left:0px;");
 		
-
 		setContent(layout);
-		
-		addListener((ClickListener)this);
+		addClickListener((ClickListener)this);
 	}
 	
 	/**
@@ -145,6 +138,7 @@ public class AboutBox
 			animatedBackground.setColumns(fastMeshColumns);
 			animatedBackground.setRows(fastMeshRows);
 		} else if (wb.isFirefox()) {
+
 				if (wb.getBrowserMajorVersion() >= 4) {
 					animatedBackground.setColumns(fastMeshColumns);
 					animatedBackground.setRows(fastMeshRows);
@@ -304,6 +298,7 @@ public class AboutBox
 	public void animatedBackgroundClosed() {
 		getUI().removeWindow(this);
 	}
+	
 	
 	
 }

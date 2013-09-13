@@ -19,7 +19,7 @@ public class AboutboxApplication extends UI {
 	protected void init(VaadinRequest request) {
 		getPage().setTitle("AboutBox demo");
 		
-		VerticalLayout vl = new VerticalLayout();
+		final VerticalLayout vl = new VerticalLayout();
 		vl.addComponent(new Button("Open AboutBox", new Button.ClickListener() {
 			
 			private static final long serialVersionUID = 5405789614881134772L;
@@ -37,7 +37,7 @@ public class AboutboxApplication extends UI {
 				ab.setEffect(Effect.LOGO3D);
 				getUI().addWindow(ab);
 				ab.setTessellationAccuracy(30, 30, 0.6, 0.50);
-				ab.getAnimatedBackground().setEdgeAAEnabled(true);
+				ab.getAnimatedBackground().setEdgeAAEnabled(false);
 				ab.getAnimatedBackground().setTemporalAAEnabled(false);
 				ab.center();
 				

@@ -41,12 +41,20 @@
   	/* CSS3 standard */
   	/*opacity:0.9;*/
 }
-	
+
+.aboutbox .v-absolutelayout-wrapper-footerlabel {
+	width: 100%;
+}	
+
 .aboutbox .footerlabel {
 	height: 2em;
 	color: black;
 	text-align: center;	
-	 background-color: #00b4f0;
+	background-color: #00b4f0;
+}
+
+.aboutbox .footerlabel h3 {
+	margin: 0.25em;
 }
 
 .v-embedded-image {
