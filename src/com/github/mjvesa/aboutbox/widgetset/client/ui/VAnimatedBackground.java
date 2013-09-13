@@ -220,33 +220,33 @@ public class VAnimatedBackground extends Composite implements Paintable
 	private native void drawObject(double x,double y) /*-{
 
 
-	    var temporalAAEnabled = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::temporalAAEnabled;
-	    var edgeAAEnabled = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::edgeAAEnabled;
+	    var temporalAAEnabled = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::temporalAAEnabled;
+	    var edgeAAEnabled = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::edgeAAEnabled;
 
-	    var useVML = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::useVML;
+	    var useVML = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::useVML;
 
-	    var previous = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::previous;
+	    var previous = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::previous;
 
-	    var texture = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::light;
+	    var texture = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::light;
 
-	    var frameCount = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::frameCount;
+	    var frameCount = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::frameCount;
 
-   	    var textureX = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::textureX;
-	    var textureY = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::textureY;
+   	    var textureX = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::textureX;
+	    var textureY = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::textureY;
    	    
-   	    var width = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::width;
-	    var height = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::height;
+   	    var width = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::width;
+	    var height = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::height;
    	    
-   	    var objectZ = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::objectZ;
-	    var objectScale = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::objectScale;
+   	    var objectZ = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::objectZ;
+	    var objectScale = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::objectScale;
 
-	    var jitters = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::jitters;
+	    var jitters = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::jitters;
 
-	    var faces = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::faces;
-	    var vertices = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::vertices;
-	    var normals = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::normals;
+	    var faces = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::faces;
+	    var vertices = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::vertices;
+	    var normals = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::normals;
 	    
-	    var baseColor = this.@com.example.aboutbox.widgetset.client.ui.VAnimatedBackground::baseColor;
+	    var baseColor = this.@com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground::baseColor;
 
 		var colorR = (baseColor >> 16) & 255; 
 		var colorG = (baseColor >> 8) & 255; 
