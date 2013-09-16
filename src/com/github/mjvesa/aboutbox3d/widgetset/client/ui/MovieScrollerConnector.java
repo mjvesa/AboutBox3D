@@ -1,7 +1,7 @@
-package com.github.mjvesa.aboutbox.widgetset.client.ui;
+package com.github.mjvesa.aboutbox3d.widgetset.client.ui;
 
-import com.github.mjvesa.aboutbox.widgetset.client.ui.VMovieScroller;
-import com.github.mjvesa.aboutbox.widgetset.MovieScroller;
+import com.github.mjvesa.aboutbox3d.widgetset.MovieScroller;
+import com.github.mjvesa.aboutbox3d.widgetset.client.ui.VMovieScroller;
 import com.vaadin.client.ui.LegacyConnector;
 import com.vaadin.shared.ui.Connect;
 

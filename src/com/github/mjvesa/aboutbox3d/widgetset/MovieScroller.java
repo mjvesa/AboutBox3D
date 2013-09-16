@@ -1,4 +1,4 @@
-package com.github.mjvesa.aboutbox.widgetset;
+package com.github.mjvesa.aboutbox3d.widgetset;
 
 import java.util.Map;
 

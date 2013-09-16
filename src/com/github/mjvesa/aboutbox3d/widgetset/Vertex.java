@@ -1,4 +1,4 @@
-package com.github.mjvesa.aboutbox.widgetset;
+package com.github.mjvesa.aboutbox3d.widgetset;
 /**
  *
  * Represents one point in a mesh including vertex normals. A vertex can be

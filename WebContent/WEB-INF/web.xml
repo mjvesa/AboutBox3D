@@ -14,13 +14,13 @@
 			<description>
 			Vaadin application class to start</description>
 			<param-name>UI</param-name>
-			<param-value>com.github.mjvesa.aboutbox.AboutboxApplication</param-value>
+			<param-value>com.github.mjvesa.aboutbox3d.Aboutbox3dApplication</param-value>
 		</init-param>
 		<init-param>
 			<description>
 			Application widgetset</description>
 			<param-name>widgetset</param-name>
-			<param-value>com.github.mjvesa.aboutbox.widgetset.AboutboxWidgetset</param-value>
+			<param-value>com.github.mjvesa.aboutbox3d.widgetset.AboutboxWidgetset</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>

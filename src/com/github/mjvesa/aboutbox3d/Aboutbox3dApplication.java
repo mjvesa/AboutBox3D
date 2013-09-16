@@ -1,6 +1,6 @@
-package com.github.mjvesa.aboutbox;
+package com.github.mjvesa.aboutbox3d;
 
-import com.github.mjvesa.aboutbox.widgetset.AnimatedBackground.Effect;
+import com.github.mjvesa.aboutbox3d.widgetset.AnimatedBackground.Effect;
 import com.vaadin.annotations.Theme;
 import com.vaadin.server.ThemeResource;
 import com.vaadin.server.VaadinRequest;
@@ -9,14 +9,14 @@ import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
-@Theme("aboutbox")
-public class AboutboxApplication extends UI {
+@Theme("aboutbox3d")
+public class Aboutbox3dApplication extends UI {
 
     private static final long serialVersionUID = 5853529673557124301L;
 
     @Override
     protected void init(VaadinRequest request) {
-        getPage().setTitle("AboutBox demo");
+        getPage().setTitle("AboutBox3D demo");
 
         final VerticalLayout vl = new VerticalLayout();
         vl.addComponent(new Button("Open AboutBox",
@@ -26,7 +26,7 @@ public class AboutboxApplication extends UI {
 
                     @Override
                     public void buttonClick(ClickEvent event) {
-                        AboutBox ab = new AboutBox();
+                        AboutBox3D ab = new AboutBox3D();
                         ab.setWidth("400px");
                         ab.setHeight("400px");
                         ab.setLogo(new ThemeResource("img/vaadin.png"));

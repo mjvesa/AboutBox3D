@@ -1,8 +1,8 @@
-package com.github.mjvesa.aboutbox;
+package com.github.mjvesa.aboutbox3d;
 
-import com.github.mjvesa.aboutbox.widgetset.AnimatedBackground;
-import com.github.mjvesa.aboutbox.widgetset.AnimatedBackground.Effect;
-import com.github.mjvesa.aboutbox.widgetset.MovieScroller;
+import com.github.mjvesa.aboutbox3d.widgetset.AnimatedBackground;
+import com.github.mjvesa.aboutbox3d.widgetset.MovieScroller;
+import com.github.mjvesa.aboutbox3d.widgetset.AnimatedBackground.Effect;
 import com.vaadin.event.MouseEvents.ClickEvent;
 import com.vaadin.event.MouseEvents.ClickListener;
 import com.vaadin.server.Resource;
@@ -12,7 +12,7 @@ import com.vaadin.ui.Embedded;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.Window;
 
-public class AboutBox 
+public class AboutBox3D 
 	extends Window
 	implements ClickListener, AnimatedBackground.CloseListener {
 	
@@ -42,7 +42,7 @@ public class AboutBox
 	/**
 	 * Constructs an AboutBox with sane defaults and a Vaadin logo
 	 */
-	public AboutBox() {
+	public AboutBox3D() {
 		
 		addStyleName("aboutbox");
 		

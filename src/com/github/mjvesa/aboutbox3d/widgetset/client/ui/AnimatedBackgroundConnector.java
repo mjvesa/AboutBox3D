@@ -1,7 +1,7 @@
-package com.github.mjvesa.aboutbox.widgetset.client.ui;
+package com.github.mjvesa.aboutbox3d.widgetset.client.ui;
 
-import com.github.mjvesa.aboutbox.widgetset.client.ui.VAnimatedBackground;
-import com.github.mjvesa.aboutbox.widgetset.AnimatedBackground;
+import com.github.mjvesa.aboutbox3d.widgetset.AnimatedBackground;
+import com.github.mjvesa.aboutbox3d.widgetset.client.ui.VAnimatedBackground;
 import com.vaadin.annotations.StyleSheet;
 import com.vaadin.client.ui.LegacyConnector;
 import com.vaadin.shared.ui.Connect;
