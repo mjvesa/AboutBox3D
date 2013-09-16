@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: AboutBox
+Implementation-Title: AboutBox3D
 Implementation-Version: 0.5.0
 Vaadin-Package-Version: 1
-Vaadin-Widgetsets: com.github.mjvesa.aboutbox.widgetset.AboutboxWidget
- set
 Class-Path: 
-Vaadin-Stylesheets: VAADIN/addons/aboutbox/styles.css
+Vaadin-Widgetsets: com.github.mjvesa.aboutbox3d.widgetset.Aboutbox3dWi
+ dgetset
+Vaadin-Stylesheets: VAADIN/addons/aboutbox3d/styles.css
 
