@@ -6,7 +6,6 @@ import com.vaadin.annotations.StyleSheet;
 import com.vaadin.client.ui.LegacyConnector;
 import com.vaadin.shared.ui.Connect;
 
-@StyleSheet("vaadin://addons/aboutbox/styles.css")
 @Connect(AnimatedBackground.class)
 public class AnimatedBackgroundConnector extends LegacyConnector {
 
