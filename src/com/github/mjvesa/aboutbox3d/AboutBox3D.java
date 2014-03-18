@@ -43,13 +43,17 @@ public class AboutBox3D
 	 * Constructs an AboutBox with sane defaults and a Vaadin logo
 	 */
 	public AboutBox3D() {
+		this("vaadin_logo.png");
+	}
+
+	public AboutBox3D(String logo3d) {
 		
 		addStyleName("aboutbox");
 		
 		layout = new AbsoluteLayout();
 
 		animatedBackground = new AnimatedBackground();		
-		animatedBackground.setLogo("vaadin_logo.png", 128, 5, 5, 0, 0, 20, 10, 10);
+		animatedBackground.setLogo(logo3d, 128, 5, 5, 0, 0, 20, 10, 10);
 		animatedBackground.generateMesh();
 		animatedBackground.setObjectScale(200);
 		animatedBackground.setObjectZ(400);
